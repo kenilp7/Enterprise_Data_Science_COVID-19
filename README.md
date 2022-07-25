@@ -1,10 +1,22 @@
-eds
-==============================
+# Enterprise Data Science Project 2022
 
-enyterprise data science project on COVID-19 data
+### Applied Data Science Project
 
-Project Organization
-------------
+Datasets used - John Hopkins Dataset
+
+Libraries used - Numpy, Scikit learn, Pandas, MatplotLib, Plotly
+
+Language used - Python
+
+About the project: An analysis of the corona cases of different countries around the globe, the doubling rate associated and the general trend. Alongwith this, implementation of SIR (Susceptible population, Infectious population and Recovered population) for different countries.
+
+How to use the contents:
+
+1. To run the dynamic dashboard, simply clone then repository -> go to notebooks/05_Evalaution_walk_through.py
+2. To run the SIR model for different countries -> go to notebooks/08_SIR_modelling.py
+
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -53,32 +65,3 @@ Project Organization
 
 
 --------
-	Applied Data science Project.
-	
-	Dataset used - John Hopkins Dataset
-	Libraries used - Plotly, Scikit learn
-	
-	Language used - Python
-	
-	About the project: An analysis of the corona cases of different countries around the globe, the doubling rate associated and the general trend.
-			    Alongwith this, implementation of SIR (Susceptible population, Infectious population and Recovered population) for Germany
-
-
-	How to use the contents:
-	
-	1. To run the dynamic dashboard, simply clone then repository -> go to src/visualisation/visualize.py
-	2. To run the SIR model for Germany - Run SIR_model.py
-
-# A Sneak peek of the project
-
-1. Timeline Confirmed
-<img src="Timeline_confirmed.gif">
-
-2. Timeline Confirmed Filtered
-<img src = "Timeline_confirmed_filtered.gif">
-
-3. Timeline Doubling Rate
-<img src="Timeline_doubling_rate.gif">
-
-4. Timeline Doubling Rate Filtered
-<img src="Timeleine_doubling_rate_filtered.gif">
